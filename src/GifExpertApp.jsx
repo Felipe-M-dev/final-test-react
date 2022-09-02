@@ -1,0 +1,32 @@
+import { useState } from "react"
+import { AddCategory, GifGrid } from "./components"
+
+export const GifExpertApp = () => {
+    
+    const [ categories, setCategories ] = useState([ 'reactjs' ])
+    
+    // console.log(categories)
+    const onAddCategory = ( newCategory ) => {
+        if (categories.includes(newCategory) ) return
+        // console.log(newCategory)
+        setCategories( [newCategory, ...categories ] )
+
+    }
+    return (
+        <>
+            {/* input */}
+            <AddCategory 
+                onNewCategory={ (value) => onAddCategory(value) }
+            />
+
+            { 
+                categories.map( (category) => (
+                    <GifGrid 
+                        key={ category }
+                        category={ category }
+                    />
+                )) 
+            }
+        </>
+    )
+}
