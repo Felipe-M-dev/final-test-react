@@ -56,3 +56,7 @@ Algunos servicios que podrías utilizar para desarrollar esta prueba:
 6. Ordena los resultados por algún criterio que estimes conveniente, puede ser alfabéticamente, de menor a mayor, etc. Investiga el método sort y reverse de los arrays __(1 Punto)__
 
 7. Agrega un diseño coherente a tu aplicación __(1 Punto)__
+
+Consideraciones y recomendaciones |
+--- |
+Los estilos de la aplicación son a libre elección, se sugiere el uso de Bootstrap para agilizar el desarrollo de los aspectos visuales. |
