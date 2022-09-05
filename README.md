@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+[Video explicativo](https://vimeo.com/746590112)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Prueba - React I
 
-## Available Scripts
+En esta prueba validaremos nuestros conocimientos de React. Para lograrlo, lee todo el documento antes de comenzar el desarrollo __individual__, para asegurarte de tener el máximo de puntaje y enfocar bien los esfuerzos.
 
-In the project directory, you can run:
+Tiempo asociado: 1 hora cronológica.
 
-### `npm start`
+## Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La prueba consiste en construir una aplicación que consuma una API a tu elección. Luego debes grabar un video explicando cada uno de los requerimientos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instrucciones
 
-### `npm test`
+● El video lo debes subir a youtube o vimeo en modo público. Si prefieres, puedes marcarlo como no listado de forma que solo quienes tengan el link puedan acceder a él.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+● El video no debe durar más de 5 minutos. No se evaluará si el largo del video es mayor.
 
-### `npm run build`
+● No puedes utilizar las APIs de la clase y guía para esta prueba. Tendrás que utilizar una nueva.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+● Por cada requerimiento muestra primero la aplicación funcionando y luego el código explicado con tus palabras.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+● Al menos uno de los endpoints utilizado debe devolver múltiples datos, de forma de trabajar los resultados como un array.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+● Debes subir el proyecto a github.
 
-### `npm run eject`
+● Agregar la URL del video dentro del archivo Readme.md en la raíz del proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+● Al final debes compartir en el __LMS__ el link de acceso al repositorio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+__Nota:__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+● No es necesario grabar con la cámara encendida, solo pantalla y sonido.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+● No es necesario que el sonido sea perfecto pero debe poder escucharse bien para poder evaluar correctamente la prueba.
 
-## Learn More
+Algunos servicios que podrías utilizar para desarrollar esta prueba:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Indicadores económicos
+2. Predicciones meteorológicas __(Requiere registro)__
+3. Feriados legales de Chile
+4. Farmacias de turno en Chile
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Requerimientos
 
-### Code Splitting
+1. Limpia los archivos que no utilizarás de la aplicación de acuerdo a lo aprendido en el curso __(1 Punto)__
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Dentro de App.js crea un landing page __(1 Punto)__
 
-### Analyzing the Bundle Size
+3. Crea un componente llamado MiApi.jsx e impórtalo dentro de App.jsx __(1 Punto)__
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Dentro de MiApi.jsx crea el código para consumir la API y que muestre los resultados __(3 Punto)__
 
-### Making a Progressive Web App
+5. Crea un input llamado búsqueda que filtre por alguno de los resultados de la API. Por ejemplo nombre, precio o cualquier otro tipo de criterio coherente con el resultado de la API __(2 Punto)__
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+6. Ordena los resultados por algún criterio que estimes conveniente, puede ser alfabéticamente, de menor a mayor, etc. Investiga el método sort y reverse de los arrays __(1 Punto)__
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+7. Agrega un diseño coherente a tu aplicación __(1 Punto)__
